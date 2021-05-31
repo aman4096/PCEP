@@ -1,5 +1,4 @@
 blocks = int(input("Enter the number of blocks: "))
-
 #
 # Write your code here.
 #
@@ -9,6 +8,4 @@ while(blocks>layer_length):
     layer_length+=1
     blocks_used+=layer_length
     blocks-=layer_length
-    
-
 print("The height of the pyramid:", layer_length)
